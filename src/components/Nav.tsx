@@ -24,8 +24,7 @@ export function Nav() {
         }`}
       >
         <Link to="/" className="flex items-center gap-2 font-display text-xl font-extrabold tracking-tight">
-          <Logo />
-          Dairyfy
+         <img src="logo.png" alt=""  className="h-20"/>
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           <a href="#story" className="hover:text-foreground transition-colors">Our story</a>
@@ -35,7 +34,7 @@ export function Nav() {
         </nav>
         <a
           href="#farms"
-          className="inline-flex items-center gap-1.5 rounded-full bg-[var(--moss)] px-5 py-2.5 text-sm font-semibold text-primary-foreground magnetic-btn"
+          className="inline-flex items-center gap-1.5 rounded-full bg-[var(--moss)] px-5 py-5 text-sm font-semibold text-primary-foreground magnetic-btn"
         >
           Get early access
         </a>
@@ -44,13 +43,3 @@ export function Nav() {
   );
 }
 
-function Logo() {
-  return (
-    <span className="grid h-8 w-8 place-items-center rounded-full bg-[var(--moss)] text-primary-foreground">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M8 2h8" />
-        <path d="M9 2v4l-3 6a5 5 0 0 0 5 8h2a5 5 0 0 0 5-8l-3-6V2" />
-      </svg>
-    </span>
-  );
-}

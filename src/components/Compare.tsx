@@ -33,7 +33,7 @@ export function Compare() {
             <div className="grid grid-cols-3 bg-gradient-to-r from-transparent via-[oklch(0.92_0.05_140/0.3)] to-transparent px-6 py-6 md:px-10 border-b border-border text-sm font-semibold uppercase tracking-wider">
               <div className="text-muted-foreground">Metric</div>
               <div className="text-[var(--moss)] flex items-center gap-2">
-                <Star /> Dairyfy
+                 Dairyfy
               </div>
               <div className="text-muted-foreground">Other brands</div>
             </div>
